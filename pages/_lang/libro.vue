@@ -302,12 +302,10 @@ export default {
 
       request
         .then((response) => {
-          console.log('Correo enviado con éxito:', response.data)
           alert('Correo enviado con éxito')
         })
         .catch((error) => {
-          console.error('Error al enviar el correo:', error)
-          alert('Hubo un error al enviar el correo')
+          alert('Hubo un error al enviar el correo', error)
         })
     },
   },
