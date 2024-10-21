@@ -1,0 +1,270 @@
+{
+  "links": {
+    "home": "Inicio",
+    "products": "Productos",
+    "contact": "Contacto",
+    "cotizar": "Cotizar",
+    "english": "Cambiar a Inglés",
+    "spanish": "Cambiar a Español",
+    "politicas": "Política de Calidad"
+  },
+  "book": {
+    "titulo_lape": "Libro de Reclamaciones Lape",
+    "titulo_also": "Libro de Reclamaciones Also Medica",
+    "titulo": "Libro de Reclamaciones",
+    "incidente": "Fecha del Incidente",
+    "nombre_razon": "Nombre o Razón social",
+    "subtitulo1": "1. IDENTIFICACIÓN DEL CONSUMIDOR RECLAMANTE",
+    "solicitante": "Nombre del Solicitante",
+    "domicilio": "Domicilio",
+    "documento": "Dni  o Carnet de Extranjeria",
+    "correo": "Teléfono / E-Mail",
+    "apoderado": "Padre o Madre",
+    "apoderado_descripcion": "Pare el caso de menor de edad",
+    "subtitulo2": "2. IDENTIFICACIÓN DEL BIEN CONTRATADO",
+    "tipo": "Tipo",
+    "selec": "Seleccione el Tipo",
+    "monto": "Monto Reclamado",
+    "descripcion": "Descripcion",
+    "subtitulo3": "3. DETALLE DE LA RECLAMACIÓN Y PEDIDO DEL CONSUMIDOR",
+    "reclamo_queja": "¿Es un reclamo o queja?",
+    "detalle": "Detalle",
+    "detalle_descripcion": "Cuéntanos lo que no salió como esperabas.",
+    "pedido": "Pedido",
+    "pedido_descripcion": "Qué esperas de nosotros debido a este incidente.",
+    "subtitulo4": "4. OBSERVACIONES Y ACCIONES ADOPTADAS POR EL PROVEEDOR",
+    "fecha_respuesta": "Fecha de Comunicación de la respuesta:",
+    "observaciones": "Observaciones",
+    "add": "Enviar",
+    "campos": "Campos obligatorios"
+  },
+  "home": {
+    "title": "Lape",
+    "subtitle": "Laboratorio de fabricación y distribución de dispositivos médicos",
+    "content": "Fundada en 1989, Laboratorios LAPE S.A. es un laboratorio peruano de dispositivos médicos, fabricante y representante exclusivo de acreditadas empresas internacionales de dispositivos médicos que es producido bajo certificaciones FDA, ISO, CE, BPM y BPA",
+    "content_2": "Droguería ALSO MEDICA SAC, es un empresa afín a LAPE SA, creada en el año 2008 con el fin de distribuir Dispositivos Médicos a nivel nacional. Usted podrá encontrar en esta misma página productos de ambas empresas.",
+    "banner_img": "/banner/lape.webp",
+    "banner_img2": "/banner/also.webp",
+    "cot_button": "SOLICITA TU COTIZACIÓN",
+    "cat_button": "VER CATÁLOGO"
+  },
+  "cotizacion": {
+    "title": "Solicita una cotización",
+    "nombre_empresa": "Nombre de la Empresa",
+    "nombre": "Nombre del Solicitante",
+    "direccion": "Dirección de entrega",
+    "celular": "Teléfono / Celular",
+    "email": "Email",
+    "fecha": "Fecha de entrega",
+    "sele": "Seleccione su producto",
+    "add": "Agregar producto",
+    "can": "Cantidad",
+    "el": "Eliminar",
+    "campos": "Campos obligatorios",
+    "solicitar": "Solicitar Cotización"
+  },
+  "certificaciones": {
+    "nacional": "CERTIFICACIONES NACIONALES",
+    "iso_1": "Certificación Oficial",
+    "iso_2": "ISO-9001",
+    "iso_3": "Alcance: Vendas Elásticas / Gasas Fraccionadas",
+    "iso_4": "Vendas de Algodón",
+    "bpa_1": "Buenas Prácticas de Almacenamiento",
+    "bpm_1": "Buenas Prácticas de Manufactura",
+    "internacional": "CERTIFICACIONES INTERNACIONALES",
+    "fda_1": "Certificación FDA",
+    "cce_1": "Certificación de Comunidad Europea",
+    "iso13485_1": "Certificación Oficial",
+    "iso13485_2": "ISO-13485",
+    "iso1_1": "Certificación Oficial",
+    "bpm1_1": "Buenas Prácticas de Manufactura",
+    "bpl": "Buenas Prácticas de Laboratorio"
+  },
+  "producto": {
+    "our": "NUESTROS PRODUCTOS",
+    "lape": "PRODUCTOS LAPE S.A.",
+    "also": "PRODUCTOS ALSO MEDICA S.A.C.",
+    "preguntas": "¿TIENES PREGUNTAS? LLÁMANOS",
+    "lape_marcas": "Marcas LAPE S.A.",
+    "also_marcas": "Marcas ALSO MEDICA S.A.C."
+  },
+  "contacto": {
+    "title": "CONTACTO",
+    "subtitle": "Si tiene alguna pregunta, no dude en escribirnos y nosotros le responderemos a la brevedad posible.",
+    "nombre": "Nombre Completo",
+    "email": "Email",
+    "mensaje": "Mensaje",
+    "enviar": "Enviar",
+    "horario": "Horario de atención",
+    "telefono": "Teléfonos",
+    "direccion": "Dirección",
+    "cel": "Celular",
+    "libro": "Libro de Reclamaciones"
+  },
+  "medidas": "Medidas",
+  "colores": "Colores",
+  "precauciones": "Precauciones",
+  "p1": "No usar si el empaque está abierto o dañado.",
+  "p2": "No estéril.",
+  "p3": "De un solo uso.",
+  "p4": "Desechar después de usar.",
+  "p5": "Libre de látex.",
+  "p6": "Reusable.",
+  "almacenamiento": "Condiciones de almacenamiento.",
+  "a1": "El producto debe ser almacenado de 15-30°C y la humedad debe ser menor a 60% HR.",
+  "a2": "El producto debe ser almacenado a una temperatura ambiente",
+  "a3": "Colocados en parihuelas.",
+  "a4": "Evitar la luz solar.",
+  "a5": "Apilar no más de 5 cajas.",
+  "a6": "Evitar la luz solar.",
+  "a7": "Apilar no más de 7 cajas.",
+  "a8": "Apilar no más de 10 cajas.",
+  "a9": "Apilar no más de 8 cajas.",
+  "a10": "Apilar no más de 4 cajas.",
+  "a11": "Apilar 4″ x 5 yardas no más de 12 cajas.",
+  "a12": "Apilar 6″ x 5 yardas no más de 10 cajas.",
+  "a13": "Apilar 8″ x 5 yardas no más de 8 cajas.",
+  "certificacion": "Certificaciones de Calidad",
+  "c1": "BPM – Buenas Prácticas de Manufactura",
+  "c2": "BPA – Buenas Prácticas de Almacenamiento",
+  "c3": "ISO – 13485",
+  "c4": "ISO – 9001",
+  "c5": "FDA",
+  "c6": "CE",
+  "c7": "BPL - Buenas Prácticas de Laboratorio",
+  "importado": "Importado por:",
+  "fabricado": "Fabricado por:",
+  "indicaciones": "Indicaciones de uso",
+  "i1": "Enrolla la venda de algodón en la parte del cuerpo a enyesar, generando dos capas.",
+  "i2": "Inmovilizar extremidades u otras partes lesionadas del cuerpo.",
+  "i3": "Controlar edema o inflamación.",
+  "i4": "Vendajes quirúrgicos, protectores y de rehabilitación.",
+  "i5": "Este producto es fraccionado y se utiliza para la limpieza y curación de heridas.",
+  "optimacast": {
+    "title": "OPTIMACAST - Vendas de Acrílico",
+    "t1": "Fabricado con tejido en fibra de vidrio impregnado con resina de poliuretano. Presentado en forma de vendajes para la formación de soportes y moldes traumatológicos protectores de fracturas óseas, de lesiones de músculos o de ligamentos. También para casos ortopédicos y quirúrgicos que requieren inmovilización.",
+    "t2": "Su exposición al agua inicia un proceso químico que permite la formación del molde traumatológico y su posterior endurecimiento al cabo de 3 – 4 minutos.",
+    "colores": "Azul, Blanco y verde"
+  },
+  "alvend": {
+    "title": "ALVEND PLUS- Vendas de Algodón",
+    "t1": "Producto para tratamiento traumatológico como vendaje base antes del enyesado.",
+    "t2": "Evita exudiaciones típicas en enyesamientos prolongados. De fácil manipulación y adecuada resistencia a la tracción, ambas superficies de la venda permite mejor adherencia entre capa y evita formación de pliegues, adecuada circulación de aire entre el algodón y la piel gracias a su estructura no tejida, evitando escaras u otras heridas, suave y confortable al tacto."
+  },
+  "medibelt": {
+    "title": "MEDIBELT - Fajas Post Operatoria y Adbominal",
+    "t1": "La faja postoperatorias 3 bandas y abdominales 4 bandas proporcionan un apoyo para todo el cuerpo y la zona intervenida que ayuda a sostener el cuerpo ayudando a sanar los músculos y tejidos durante el periodo de recuperación. Ajuste mediante el sistema “velcro”, diseño anatómico y de alta protección."
+  },
+  "yestel": {
+    "title": "YESTEL - Vendas de Yeso",
+    "t1": "Las vendas de yeso consisten de un tejido de algodón impregnado con sulfato de calcio seco, Inmoviliza la zona lesionada para facilitar la alineación y el proceso de curación del hueso, evitando así que se use o mueva la zona lesionada.",
+    "t2": "Fraguado extra rápido.",
+    "t3": "Vendaje de acabado liso, sin grumos.",
+    "t4": "Su textura permite una buena distribución.",
+    "t5": "Por su excelente capacidad de absorción no debe sumergirse más de 5 segundos en el agua.",
+    "t6": "Excelente plasticidad.",
+    "t7": "De fácil manipulación.",
+    "t8": "Yeso bien distribuido."
+  },
+  "galeno": {
+    "title": "GALENO - Vendas Elásticas",
+    "t1": "Fabricada bajo certificación de Buenas Prácticas de Manufactura (BPM), permite una adecuada protección a la zona afectada gracias a su conveniente elasticidad y ajuste perfecto. Su presentación en color blanco es libre de defectos en su apariencia."
+  },
+  "gastel_stern": {
+    "title": "GASTEL PLUS - Gasa Hospitalaria",
+    "t1": "Fabricada con algodón hidrófilo, blanqueado, purificado y libre de defectos.",
+    "t2": "Sus acreditaciones con certificaciones de calidad ISO 9001 y BPM, son la base de una confiable calidad de producto."
+  },
+  "gastel": {
+    "title": "GASTEL - Gasa Fraccionada",
+    "t1": "Producida con 100% algodón hidrófilo aséptico. Su acondicionado en medidas comerciales se lleva a cabo cumpliendo estrictas normas técnicas de higiene previstas en la certificación de Buenas Prácticas de Manufactura (BPM)."
+  },
+  "beesure": {
+    "title": "BEESURE - Guantes de Examen",
+    "t1": "Los guantes BeeSure son fabricados por CRANBERRY (M) SDN BHD. Ofrecen una excelente sensación táctil gracias al acabado de su superficie. Ligeramente polveados. Borde de puño reforzado para una fácil colocación."
+  },
+  "transtel": {
+    "title": "TRANSTEL - Transfusión de Sangre",
+    "t1": "Es un equipo descartable utilizado para la transfusión de sangre, en empaque individual.",
+    "t2": "Esterilizado por Óxido de Etileno.",
+    "t3": "Posee regulador de goteo.",
+    "t4": "Cuenta con un dispositivo de perforación de 20 gotas por ml.",
+    "t5": "Tubo flexible, transparente y atoxico.",
+    "t6": "Posee un filtro para retener coágulos y restos celulares.",
+    "t7": "Transparente para detectar pase de burbujas de aire."
+  },
+  "adhetel": {
+    "title": "ADHETEL - Cinta Médica, Hipoalergénica",
+    "t1": "Cintas adhesivas micro perforadas tipo papel (Pore), plástico (Clear) y seda (Silk) que han sido tratadas con adhesivo médico hipoalergénico para otorgar un ajuste confiable en pieles delicadas."
+  },
+  "uritel": {
+    "title": "URITEL - Bolsa de Orina Descartable",
+    "t1": "Es una bolsa de orina descartable fabricada en PVC de grado médico y libre de látex.",
+    "t2": "Posee válvula de retención.",
+    "t3": "Esterilizado por Óxido de Etileno.",
+    "t4": "Cuenta con líneas de graduación claramente impresas.",
+    "t5": "Posee conexiones seguras y tubo de drenaje suave y flexible."
+  },
+  "masctel": {
+    "title": "MASCTEL - Mascarilla Descartable",
+    "t1": "Fabricadas con tela no tejida, tres pliegues, ajuste en la oreja. Acreditado con Pruebas de Eficiencia de Filtracion Bacterial (BFE) (cinco pruebas de especímenes), Presión Diferencial, Pruebas de Penetración de sangre sintética, y Pruebas de Limpieza Bacterial."
+  },
+  "captel": {
+    "title": "CAPTEL - Gorros Descartables",
+    "t1": "Gorros descartables, fabricado en tela no tejida con doble elástico, excelente sujeción que le garantiza su función protectora e higiénica, no aprieta ni deja marcas en la piel.",
+    "t2": "Tamaño",
+    "t3": "10G, 21\""
+  },
+  "cleanseat": {
+    "title": "CLEAN SEAT - Protectores Desechables Para Inodoro",
+    "t1": "Diseñado para evitar el contacto directo y los contagios.",
+    "t2": "Confortable papel desechable, es la solución para evitar el contacto directo con el inodoro",
+    "t3": "Conveniente para la higiene, amigable con el medio ambiente",
+    "t4": "Bio-degradable se disuelve en agua"
+  },
+  "david": {
+    "title": "DAVID - Trocar Descartable",
+    "t1": "El trocar descartable “DAVID” es manufacturado con polivinilo termo resistente grado médico. Su acabado suave no presenta rebabas ni bordes afilados, no poros, grietas , surcos ni material sintetizado que no se pueda identificar a simple vista; así como tampoco agentes de molienda, de pulidos ni preservantes.",
+    "t2": "Cuchilla retráctil, Esterilizado por EO.",
+    "t3": "Examinado bajo pruebas de bio compatibilidad.",
+    "m": "Modelos"
+  },
+  "venoset": {
+    "title": "VENOSET - Set Venoclisis Estéril De Un Solo Uso",
+    "t1": "Fabricado con  PVC grado médico. Examinado mediante Pruebas de Toxicidad Celular, Estimulación Intracutánea, Alergia Cutánea, y Hemolisis. Esterilizado con Óxido de Etileno. De un solo uso, incluye filtro de aire, embudo, catéter, regulador de paso de flujo.",
+    "t2": "Unidad de inyección de solución medicinal, filtro de solución medicinal, bomba de goma, y aguja hipodérmica.",
+    "m": "Modelos",
+    "t": "Tallas"
+  },
+  "globex_cpolvo": {
+    "title": "GLOVEX - Guantes de Látex para Examen con Polvo",
+    "t1": "Fabricados con látex natural, ligeramente empolvados, no estéril, biodegradable, hipo alergénico, aséptico, atóxico, ambidextro, puño enrollado.",
+    "t": "Tallas"
+  },
+  "guantex": {
+    "title": "GUANTEX - Guantes de Nitrilo para Examen",
+    "t1": "Fabricados con nitrilo, libres de polvo, no estériles, yemas del dedo texturizadas, biodegradable, ambidextros, aséptico, puños enrollados, hipoalergénico, atóxico.",
+    "t2": "No produce alergias de látex, no causa irritación de piel seca, excelente capacidad humedad para calzar el guante, excelente agarre, protege el medio ambiente por reciclaje.",
+    "t": "Tallas",
+    "c": "Colores",
+    "c1": "Azul",
+    "c2": "Celeste",
+    "c3": "Azul Cobalto",
+    "c4": "Negro",
+    "c5": "Blanco",
+    "c6": "Rosado"
+  },
+  "guantex_latex": {
+    "title": "GUANTEX - Guantes de Latex para Examen, Libre de Polvo",
+    "t1": "Fabricado con látex natural, no estéril, biodegradable, hipo alergénico, aséptico, atóxico, ambidextro, puños enrollados, libre de polvo.",
+    "t": "Tallas"
+  },
+  "cover": {
+    "title": "COVER SHOES - Cobertores de Zapatos Descartables",
+    "t1": "Los cobertores de zapatos son fabricados con tela no tejida de polipropileno, anti deslizantes, ambidextros, ajustables con elásticos en ambos lados del pie.",
+    "p": "Peso",
+    "c": "Colores",
+    "c1": "Blanco",
+    "c2": "Celeste"
+  }
+}

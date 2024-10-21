@@ -1,0 +1,270 @@
+{
+  "links": {
+    "home": "Home",
+    "products": "Products",
+    "contact": "Contact",
+    "cotizar": "Quote",
+    "english": "Change to English",
+    "spanish": "Change to Spanish",
+    "politicas": "Quality Politics"
+  },
+  "book": {
+    "titulo_lape": "Lape Claims Book",
+    "titulo_also": "Also Medical Claims Book",
+    "titulo": "Complaints Book",
+    "incidente": "Date of Incident",
+    "nombre_razon": "Name or Company Name",
+    "subtitulo1": "1. IDENTIFICATION OF THE COMPLAINING CONSUMER",
+    "solicitante": "Applicant's name",
+    "domicilio": "Home",
+    "documento": "ID or immigration card",
+    "correo": "Phone / E-mail",
+    "apoderado": "Father or Mother",
+    "apoderado_descripcion": "Stop the case of a minor",
+    "subtitulo2": "2. IDENTIFICATION OF THE CONTRACTED GOOD",
+    "tipo": "Guy",
+    "selec": "Select Type",
+    "monto": "Claimed Amount",
+    "descripcion": "Description",
+    "subtitulo3": "3. DETAILS OF THE CONSUMER'S CLAIM AND ORDER",
+    "reclamo_queja": "Is it a claim or complaint?",
+    "detalle": "Detail",
+    "detalle_descripcion": "Tell us what didn't go as you expected.",
+    "pedido": "Order",
+    "pedido_descripcion": "What do you expect from us because of this incident.",
+    "subtitulo4": "4. OBSERVATIONS AND ACTIONS ADOPTED BY THE SUPPLIER",
+    "fecha_respuesta": "Date of Communication of The Response:",
+    "observaciones": "Observations",
+    "add": "Send",
+    "campos": "Required fields"
+  },
+  "home": {
+    "title": "Lape",
+    "subtitle": "Medical device manufacturing and distribution laboratory",
+    "content": "Founded in 1989, LAPE S.A. is a Peruvian medical device laboratory, manufacturer and exclusive representative of accredited international companies of medical devices produced in accordance with FDA, ISO, CE, BPM and BPA certification.",
+    "content_2": "ALSO MEDICA SAC drugstore is an associate company of LAPE S.A., created in 2008 to distribute medical devices throughout Peru. You will find products from both companies on this page.",
+    "banner_img": "/banner/lape-ingles.webp",
+    "banner_img2": "/banner/also-ingles.webp",
+    "cot_button": "ASK FOR A QUOTATION",
+    "cat_button": "SEE OUR PRODUCTS"
+  },
+  "cotizacion": {
+    "title": "Request a quote",
+    "nombre_empresa": "Company name",
+    "nombre": "Applicant's name",
+    "direccion": "Delivery address",
+    "celular": "Cell phone",
+    "email": "Email",
+    "fecha": "Deadline",
+    "sele": "Select your product",
+    "add": "Add product",
+    "can": "Quantity",
+    "el": "Delete",
+    "campos": "Required fields",
+    "solicitar": "Request Quote"
+  },
+  "certificaciones": {
+    "nacional": "NATIONAL CERTIFICATIONS",
+    "iso_1": "Official Certification",
+    "iso_2": "ISO 9001",
+    "iso_3": "Scope: Elastic Bandages / Fractional Gauze",
+    "iso_4": "Cotton Bandages",
+    "bpa_1": "BPA - Good Storage Practices",
+    "bpm_1": "BPM - Good manufacturing practices",
+    "internacional": "INTERNATIONAL CERTIFICATIONS",
+    "fda_1": "FDA Certification",
+    "cce_1": "European Community Certification",
+    "iso13485_1": "Official Certification",
+    "iso13485_2": "ISO-13485",
+    "iso1_1": "Official Certification",
+    "bpm1_1": "Good manufacturing practices",
+    "bpl": "Good Laboratory Practices"
+  },
+  "producto": {
+    "our": "OUR PRODUCTS",
+    "lape": "LAPE S.A. PRODUCTS",
+    "also": "ALSO MEDICA S.A.C. PRODUCTS",
+    "preguntas": "DO YOU HAVE QUESTIONS? CALL US",
+    "lape_marcas": "LAPE S.A. Brands",
+    "also_marcas": "ALSO MEDICA S.A.C. Brands"
+  },
+  "contacto": {
+    "title": "CONTACT",
+    "subtitle": "If you have any questions, do not hesitate to write to us and we will respond as soon as possible.",
+    "nombre": "Full Name",
+    "email": "Email",
+    "mensaje": "Message",
+    "enviar": "Send",
+    "horario": "Office hours",
+    "telefono": "Phones",
+    "direccion": "Address",
+    "cel": "CellPhone",
+    "libro": "complaints book"
+  },
+  "medidas": "Measurements",
+  "colores": "Colors",
+  "precauciones": "Precautions",
+  "p1": "Do not use if the packaging is open or damaged.",
+  "p2": "Non-sterile.",
+  "p3": "Single use only.",
+  "p4": "Discard after use.",
+  "p5": "Latex free.",
+  "p6": "Reusable.",
+  "almacenamiento": "Storage conditions.",
+  "a1": "The product must be stored at 15-30 ° C and the humidity must be less than 60% RH.",
+  "a2": "Store at room temperature.",
+  "a3": "Use pallets.",
+  "a4": "Avoid sunlight.",
+  "a5": "Stack no more than 5 boxes.",
+  "a6": "Avoid sunlight.",
+  "a7": "Stack no more than 7 boxes.",
+  "a8": "Stack no more than 10 boxes.",
+  "a9": "Stack no more than 8 boxes.",
+  "a10": "Stack no more than 4 boxes.",
+  "a11": "Stack 4 ″ x 5 yards no more than 12 boxes.",
+  "a12": "Stack 6 ″ x 5 yards no more than 10 boxes.",
+  "a13": "Stack 8 ″ x 5 yards no more than 8 boxes.",
+  "certificacion": "Quality certifications",
+  "c1": "BPM - Good Manufacturing Practices",
+  "c2": "BPA - Good Storage Practices",
+  "c3": "ISO – 13485",
+  "c4": "ISO – 9001",
+  "c5": "FDA",
+  "c6": "CE",
+  "c7": "BPL - Good laboratory Practices",
+  "importado": "Imported by:",
+  "fabricado": "Made by:",
+  "indicaciones": "Indications of use",
+  "i1": "Roll the cotton bandage on the body part to be plastered, generating two layers.",
+  "i2": "Immobilize limbs or other injured parts of the body.",
+  "i3": "Control edema or inflammation.",
+  "i4": "Surgical, protective and rehabilitation bandages.",
+  "i5": "This product is fractionated and is used for wound cleaning and healing.",
+  "optimacast": {
+    "title": "OPTIMACAST - Acrylic  Bandages",
+    "t1": "Made of fiberglass fabric impregnated with polyurethane resin. Presented in the form of bandages for the formation of traumatological supports and molds for bone fractures, muscle or ligament injuries. Also for orthopedic and surgical cases that require immobilization.",
+    "t2": "Its exposure to water starts a chemical process that allows the formation of the trauma mold and its subsequent hardening after 3 - 4 minutes.",
+    "colores": "Blue, white and green"
+  },
+  "alvend": {
+    "title": "ALVEND PLUS - Cotton Bandages",
+    "t1": "Product for trauma treatment as a base bandage before plastering.",
+    "t2": "Avoid typical exultations in prolonged plastering. Easy handling and adequate tensile strength, both surfaces of the bandage allow better adhesion between layers and prevents the formation of folds, adequate air circulation between the cotton and the skin thanks to its non-woven structure, avoiding bedsores or other wounds, soft and comfortable to the touch."
+  },
+  "medibelt": {
+    "title": "MEDIBELT - Post Operative and Adbominal Girdles",
+    "t1": "The 3-band postoperative girdle and 4-band abdominals provide support for the entire body and the intervened area that helps support the body helping to heal the muscles and tissues during the recovery period. Adjustment using the “velcro” system, anatomical design and high protection."
+  },
+  "yestel": {
+    "title": "YESTEL - Plaster Bandages",
+    "t1": "Plaster bandages consist of a cotton fabric impregnated with dry calcium sulfate. It immobilizes the injured area to facilitate the alignment and healing process of the bone, thus preventing the injured area from being used or moved.",
+    "t2": "Extra fast set.",
+    "t3": "Smooth finish bandage, without lumps.",
+    "t4": "Its texture allows a good distribution.",
+    "t5": "Due to its excellent absorption capacity, it should not be submerged for more than 5 seconds in the water.",
+    "t6": "Excellent plasticity.",
+    "t7": "Easy handling.",
+    "t8": "Well distributed plaster."
+  },
+  "galeno": {
+    "title": "GALENO - Elastic Bandages",
+    "t1": "Manufactured under certification of Good Manufacturing Practices (BPM), it allows adequate protection to the affected area thanks to its convenient elasticity and perfect fit. Its presentation in white is free of defects in its appearance."
+  },
+  "gastel_stern": {
+    "title": "GASTEL Plus - Hospital Gauze",
+    "t1": "Made of hydrophilic cotton, bleached, purified and free of defects.",
+    "t2": "Its accreditations with ISO 9001 and BPM quality certifications are the basis of a reliable product quality."
+  },
+  "gastel": {
+    "title": "GASTEL - Fractionated Gauze",
+    "t1": "Produced with 100% aseptic hydrophilic cotton. Its conditioning in commercial measures is carried out in compliance with strict technical hygiene standards provided for in the certification of Good Manufacturing Practices (GMP)."
+  },
+  "beesure": {
+    "title": "BEESURE - Exam Gloves",
+    "t1": "BeeSure gloves are manufactured by CRANBERRY (M) SDN BHD. They offer an excellent tactile sensation thanks to the surface finish. Slightly dusted. Reinforced cuff edge for easy placement."
+  },
+  "transtel": {
+    "title": "TRANSTEL - Blood Transfusion",
+    "t1": "It is a disposable device used for blood transfusion, in individual packaging.",
+    "t2": "Sterilized by Ethylene Oxide.",
+    "t3": "It has a drip regulator.",
+    "t4": "It has a drilling device of 20 drops per ml.",
+    "t5": "Flexible, transparent and atoxic tube.",
+    "t6": "It has a filter to retain clots and cell debris.",
+    "t7": "Transparent to detect air bubble passing."
+  },
+  "adhetel": {
+    "title": "ADHETEL - Medical Tape, Hypoallergenic",
+    "t1": "Micro perforated adhesive tapes such as paper (Pore), plastic (Clear) and silk (Silk) that have been treated with hypoallergenic medical adhesive to provide a reliable fit on delicate skin."
+  },
+  "uritel": {
+    "title": "URITEL - Disposable Urine Bag",
+    "t1": "It is a disposable urine bag made of medical grade PVC and latex free.",
+    "t2": "It has a check valve.",
+    "t3": "Sterilized by Ethylene Oxide.",
+    "t4": "It has clearly printed graduation lines.",
+    "t5": "It has secure connections and a soft and flexible drain tube."
+  },
+  "masctel": {
+    "title": "MASCTEL - Disposable Medical Face Masks",
+    "t1": "Manufactured with non-woven fabric, three folds, earloop. Accredited with Bacterial Filtration Efficiency (BFE) Test (five test specimens), Differential Pressure Test, Synthetic Blood Penetration Test and Microbial Cleanliness Test."
+  },
+  "captel": {
+    "title": "CAPTEL - Disposable Caps",
+    "t1": "Disposable caps for nursers. Manufactured with non.woven fabric. Double rubber. Excellent fit that allows its protective function.",
+    "t2": "Size",
+    "t3": "10G, 21\""
+  },
+  "cleanseat": {
+    "title": "CLEAN SEAT - Disposable Toilet Seat Covers",
+    "t1": "Intended for avoiding direct contact with toilet seats.",
+    "t2": "Protects against contagion when use public toilets.",
+    "t3": "Suitable for protecting personal higiene.",
+    "t4": "Environment friendly."
+  },
+  "david": {
+    "title": "DAVID - Disposable Trorcar",
+    "t1": "Disposable Trocar “DAVID” is manufactured with thermo resistant polyvinyl medical grade. Its smooth appearance has not burrs and sharp edges, no pores, cracks, grooves, and sintered materials that cannot be identified by the naked eye, as well as no grinding agent, polishing agent and preservative.",
+    "t2": "Retractable blade. Sterilized by EO.",
+    "t3": "Tested under Biocompatibility requirements.",
+    "m": "Models"
+  },
+  "venoset": {
+    "title": "VENOSET - Sterile Single Use Venocysis Set",
+    "t1": "Manufactured with PVC medical grade. Tested under Cell Toxicity Test, Intracutaneous Stimilation Test, Skin Allergy Test and Hemolysis Test. Sterilized with Ethylene Oxide. Infusion set for single use, include air filter, funnel, catheter, flow rate regulator..",
+    "t2": "Medicine solution injection unit, medicine solution filtration, rubber bulb and hypodermic needle.",
+    "m": "Models",
+    "t": "Sizes"
+  },
+  "globex_cpolvo": {
+    "title": "GLOVEX - Latex Powder Exam Gloves",
+    "t1": "Manufactured with natural latex, light powdered, non-sterile, biodegradable, hypoallergenic, aseptic, atoxyc, ambidextrous, beaded cuff, powder free.",
+    "t": "Sizes"
+  },
+  "guantex": {
+    "title": "GUANTEX - Nitrile Exam Gloves",
+    "t1": "Manufactured with nitrile, powder free, non-sterile, fingertip-textured, biodegradable, ambidextrous, aseptic, beaded cuff, hypoallergenic, atoxyc.",
+    "t2": "No latex allergies, eliminates dry skin irritation, excellent wet donning capabilities, excellent grip, conserves the environment by reusing, recycling and reducing packaging waste.",
+    "t": "Sizes",
+    "c": "Colors",
+    "c1": "Blue",
+    "c2": "Light Blue",
+    "c3": "Blue Cobalt",
+    "c4": "Black",
+    "c5": "White",
+    "c6": "Pink"
+  },
+  "guantex_latex": {
+    "title": "GUANTEX - Latex Examination Glove, Powdered Free",
+    "t1": "Manufactured with natural latex, non-sterile, biodegradable, hypoallergenic, aseptic, atoxyc, ambidextrous, beaded cuff, powder free.",
+    "t": "Sizes"
+  },
+  "cover": {
+    "title": "COVER SHOES - Disposable Cover Shoes",
+    "t1": "Disposable cover shoes are manufactured with non-woven fabric, polypropylene, non-slip, ambidextrous, fitting with elastics in both sides.",
+    "p": "Weight",
+    "c": "Colors",
+    "c1": "White",
+    "c2": "Light Blue"
+  }
+}
