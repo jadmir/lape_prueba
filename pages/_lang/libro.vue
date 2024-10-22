@@ -172,7 +172,7 @@
           id="detalle"
           v-model="detalle"
           autocomplete="off"
-          type="text"
+          type="string"
           class="form-control mt-10"
           :placeholder="$t('book.detalle_descripcion')"
         />
@@ -234,6 +234,8 @@
 </template>
 
 <script>
+import swal from 'sweetalert2'
+
 export default {
   name: 'Libro',
 
@@ -262,7 +264,39 @@ export default {
     },
   },
   methods: {
+    validarCampos() {
+      if (
+        !this.fechaIncidente ||
+        !this.nombreRazon ||
+        !this.solicitante ||
+        !this.domicilio ||
+        !this.documento ||
+        !this.correo ||
+        !this.tipo ||
+        !this.monto ||
+        !this.descripcion ||
+        !this.reclamoQueja ||
+        !this.detalle ||
+        !this.pedido ||
+        !this.fechaRespuesta ||
+        !this.observaciones
+      ) {
+        // Mostrar alerta si algún campo está vacío
+        swal.fire(
+          'Campos vacíos',
+          'Todos los campos con * son obligatorios',
+          'error'
+        )
+        return false // No enviar el formulario
+      }
+      return true // Todos los campos están llenos, se puede continuar
+    },
     addLibro() {
+      // Validar campos antes de enviar el formulario
+      if (!this.validarCampos()) {
+        return // Detener si hay campos vacíos
+      }
+      // Crear el objeto de datos del correo
       const correoData = {
         from: {
           email: 'MS_D2SEuM@trial-3yxj6ljprk1ldo2r.mlsender.net',
@@ -272,21 +306,96 @@ export default {
             email: 'jadmir1111@gmail.com',
           },
         ],
-        subject: this.detalle.subject,
-        date: this.fechaIncidente.date,
-        text: this.nombreRazon.text,
-        text1: this.solicitante.text1,
-        text2: this.domicilio.text2,
-        text3: this.documento.text3,
-        correo: this.correo.correo,
-        text4: this.apoderado.text4,
-        selec: this.tipo.selec,
-        text5: this.monto.text5,
-        text6: this.descripcion.text6,
-        selec2: this.reclamoQueja.selec2,
-        text7: this.pedido.text7,
-        date2: this.fechaRespuesta.date2,
-        text8: this.observaciones.text8,
+        subject: `Asunto: ${this.detalle}`,
+        text: 'detealles',
+        html: `
+            <div style="font-family: Arial, sans-serif; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #ddd; padding: 0; border-radius: 10px; background-color: #f9f9f9;">
+  <!-- Encabezado -->
+  <div style="background-color: #3366cc; padding: 15px; border-radius: 10px 10px 0 0; text-align: center;">
+    <h1 style="color: white; margin: 0;">Detalles del Libro de Reclamaciones</h1>
+  </div>
+
+  <!-- Cuerpo del correo -->
+  <div style="padding: 20px;">
+    <h2 style="color: #3366cc; border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 0;">Información General</h2>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold; width: 50%;">Fecha del incidente:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.fechaIncidente}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Nombre y razón:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.nombreRazon}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Solicitante:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.solicitante}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Domicilio:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.domicilio}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Documento:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.documento}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Correo:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.correo}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Apoderado:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.apoderado}</td>
+      </tr>
+    </table>
+
+    <h2 style="color: #3366cc; border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 0;">Detalles del Reclamo/Queja</h2>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Tipo:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.tipo}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Monto:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.monto}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Descripción:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.descripcion}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Reclamo/Queja:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.reclamoQueja}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Detalle:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.detalle}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Pedido:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.pedido}</td>
+      </tr>
+    </table>
+
+    <h2 style="color: #3366cc; border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-top: 0;">Información Adicional</h2>
+    <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px;">
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Fecha de respuesta:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.fechaRespuesta}</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 10px; font-weight: bold;">Observaciones:</td>
+        <td style="border: 1px solid #ddd; padding: 10px;">${this.observaciones}</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Pie de página -->
+  <div style="background-color: #f1f1f1; padding: 15px; text-align: center; border-radius: 0 0 10px 10px;">
+    <p style="font-size: 0.9em; color: #777;">Este correo ha sido generado automáticamente. Por favor, no responda.</p>
+  </div>
+</div>
+            `,
       }
       const headers = {
         'Content-Type': 'application/json',
@@ -294,18 +403,49 @@ export default {
         Authorization:
           'Bearer mlsn.d816d34b51fb98b9b6445d754dce5d8ba97b197440ae808d60ab7962e799dbc6',
       }
-      const request = this.$axios.post(
-        'https://api.mailersend.com/v1/email',
-        correoData,
-        { headers }
-      )
 
-      request
+      const proxyUrl = 'https://cors-anywhere.herokuapp.com/' // Proxy CORS
+      const targetUrl = 'https://api.mailersend.com/v1/email'
+
+      this.$axios
+        .post(proxyUrl + targetUrl, correoData, { headers })
         .then((response) => {
-          alert('Correo enviado con éxito')
+          swal.fire(
+            `${this.$route.query.name}`,
+            'El libro de Reclamaciones fue enviado correctamente',
+            'success'
+          )
+          // Limpiar todos los campos del formulario
+          this.fechaIncidente = ''
+          this.nombreRazon = ''
+          this.solicitante = ''
+          this.domicilio = ''
+          this.documento = ''
+          this.correo = ''
+          this.apoderado = ''
+          this.tipo = ''
+          this.monto = ''
+          this.descripcion = ''
+          this.reclamoQueja = ''
+          this.detalle = ''
+          this.pedido = ''
+          this.fechaRespuesta = ''
+          this.observaciones = ''
         })
         .catch((error) => {
-          alert('Hubo un error al enviar el correo', error)
+          if (error.response && error.response.data) {
+            swal.fire(
+              `${this.$route.query.name}`,
+              'Hubo un error al enviar el Libro de Reclamaciones',
+              'error'
+            )
+          } else {
+            swal.fire(
+              `${this.$route.query.name}`,
+              'Hubo un error al enviar el Libro de Reclamaciones',
+              'error'
+            )
+          }
         })
     },
   },
