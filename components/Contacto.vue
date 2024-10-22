@@ -179,7 +179,7 @@
             <router-link
               :to="{
                 path: '/libro',
-                query: { name: 'Also Medica SAC' },
+                query: { name: 'Also Medica S.A.C' },
               }"
             >
               {{ $t('book.titulo_also') }}

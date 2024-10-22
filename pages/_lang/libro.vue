@@ -197,7 +197,6 @@
       <div class="form-group ed-item l-50">
         <label for="fecha_respuesta">
           {{ $t('book.fecha_respuesta') }}
-          <span style="color: red !important;">*</span>
         </label>
         <input
           id="fecha_respuesta"
@@ -205,12 +204,12 @@
           autocomplete="off"
           type="date"
           class="form-control"
+          readonly
         />
       </div>
       <div class="form-group ed-item l-50">
         <label for="observaciones">
           {{ $t('book.observaciones') }}
-          <span style="color: red !important;">*</span>
         </label>
         <input
           id="observaciones"
@@ -219,6 +218,7 @@
           type="text"
           class="form-control mt-10"
           :placeholder="$t('book.observaciones')"
+          readonly
         />
       </div>
       <div class="ed-item text-center">
@@ -255,13 +255,17 @@ export default {
       detalle: '',
       pedido: '',
       fechaRespuesta: '',
-      observaciones: '',
+      observaciones:
+        'Nos comunicaremos con usted durante la fecha establecida.',
     }
   },
   computed: {
     name() {
       return this.$route.query.name || 'No se recibió nombre'
     },
+  },
+  mounted() {
+    this.fechaRespuesta = this.calcularFechaRespuesta() // Asigna la fecha al cargar el componente
   },
   methods: {
     validarCampos() {
@@ -277,9 +281,7 @@ export default {
         !this.descripcion ||
         !this.reclamoQueja ||
         !this.detalle ||
-        !this.pedido ||
-        !this.fechaRespuesta ||
-        !this.observaciones
+        !this.pedido
       ) {
         // Mostrar alerta si algún campo está vacío
         swal.fire(
@@ -291,11 +293,21 @@ export default {
       }
       return true // Todos los campos están llenos, se puede continuar
     },
+    calcularFechaRespuesta() {
+      const fechaActual = new Date()
+      fechaActual.setDate(fechaActual.getDate() + 30)
+      const opciones = { year: 'numeric', month: '2-digit', day: '2-digit' }
+      const fechaFormateada = fechaActual.toLocaleDateString('en-CA', opciones)
+      return fechaFormateada // El formato ya es 'aaaa-mm-dd' necesario para el input de tipo date
+    },
     addLibro() {
       // Validar campos antes de enviar el formulario
       if (!this.validarCampos()) {
         return // Detener si hay campos vacíos
       }
+
+      // asignar la fecha de la respuesta automatica
+      this.fechaRespuesta = this.calcularFechaRespuesta()
       // Crear el objeto de datos del correo
       const correoData = {
         from: {
@@ -429,8 +441,6 @@ export default {
           this.reclamoQueja = ''
           this.detalle = ''
           this.pedido = ''
-          this.fechaRespuesta = ''
-          this.observaciones = ''
         })
         .catch((error) => {
           if (error.response && error.response.data) {
