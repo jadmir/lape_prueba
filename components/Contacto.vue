@@ -160,7 +160,7 @@
             <router-link
               :to="{
                 path: '/libro',
-                query: { name: 'lape S. A.' },
+                query: { name: 'LAPE S.A.' },
               }"
             >
               {{ $t('book.titulo_lape') }}
@@ -179,7 +179,7 @@
             <router-link
               :to="{
                 path: '/libro',
-                query: { name: 'Also Medica S.A.C' },
+                query: { name: 'ALSO MEDICA S.A.C.' },
               }"
             >
               {{ $t('book.titulo_also') }}

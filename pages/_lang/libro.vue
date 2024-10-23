@@ -265,7 +265,7 @@ export default {
     },
   },
   mounted() {
-    this.fechaRespuesta = this.calcularFechaRespuesta() // Asigna la fecha al cargar el componente
+    this.fechaRespuesta = this.calcularFechaRespuesta()
   },
   methods: {
     validarCampos() {
@@ -283,34 +283,32 @@ export default {
         !this.detalle ||
         !this.pedido
       ) {
-        // Mostrar alerta si algún campo está vacío
         swal.fire(
           'Campos vacíos',
           'Todos los campos con * son obligatorios',
           'error'
         )
-        return false // No enviar el formulario
+        return false
       }
-      return true // Todos los campos están llenos, se puede continuar
+      return true
     },
     calcularFechaRespuesta() {
       const fechaActual = new Date()
       fechaActual.setDate(fechaActual.getDate() + 30)
       const opciones = { year: 'numeric', month: '2-digit', day: '2-digit' }
       const fechaFormateada = fechaActual.toLocaleDateString('en-CA', opciones)
-      return fechaFormateada // El formato ya es 'aaaa-mm-dd' necesario para el input de tipo date
+      return fechaFormateada
     },
     async addLibro() {
-      // Validar campos antes de enviar el formulario
       if (!this.validarCampos()) {
-        return // Detener si hay campos vacíos
+        return
       }
 
-      // asignar la fecha de la respuesta automatica
       this.fechaRespuesta = this.calcularFechaRespuesta()
-      // Crear el objeto de datos del correo
+
       try {
         const data = {
+          empresa: this.$route.query.name,
           fechaIncidente: this.fechaIncidente,
           nombreRazon: this.nombreRazon,
           solicitante: this.solicitante,
