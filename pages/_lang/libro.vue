@@ -342,7 +342,7 @@ export default {
         if (response.status === 200) {
           swal.fire(
             `${this.$route.query.name}`,
-            'El libro de Reclamaciones fue enviado correctamente, Nos comunicaremos con usted durante los 30 dias hábiles',
+            'El libro de Reclamaciones fue enviado correctamente, Nos comunicaremos con usted durante los 30 dias.',
             'success'
           )
           // Limpiar todos los campos del formulario

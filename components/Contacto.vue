@@ -156,12 +156,13 @@
             />
             {{ $t('contacto.libro') }}
           </h2>
-          <div style="color: #fff;">
+          <div>
             <router-link
               :to="{
                 path: '/libro',
                 query: { name: 'LAPE S.A.' },
               }"
+              style="color: #fff;"
             >
               {{ $t('book.titulo_lape') }}
             </router-link>
@@ -175,12 +176,13 @@
             />
             {{ $t('contacto.libro') }}
           </h2>
-          <div style="color: #fff;">
+          <div>
             <router-link
               :to="{
                 path: '/libro',
                 query: { name: 'ALSO MEDICA S.A.C.' },
               }"
+              style="color: #fff;"
             >
               {{ $t('book.titulo_also') }}
             </router-link>
