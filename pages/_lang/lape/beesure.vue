@@ -3,7 +3,7 @@
     <div style="text-align: center;" class="ed-item">
       <img
         class="ProductoDetail--Image"
-        src="/BeeSure-guantes.webp"
+        src="/BeeSure-guantes2.webp"
         alt="Beesure"
       />
     </div>

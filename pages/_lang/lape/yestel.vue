@@ -3,7 +3,7 @@
     <div style="text-align: center;" class="ed-item">
       <img
         class="ProductoDetail--Image"
-        src="/Yestel-vendadeyeso-Lape.webp"
+        src="/Yestel-vendadeyeso-Lape2.webp"
         alt="Yestel"
       />
     </div>
@@ -31,9 +31,6 @@
         <li>4" x 5yd</li>
         <li>6" x 5yd</li>
         <li>8" x 5yd</li>
-        <li>4" x 3yd</li>
-        <li>6" x 3yd</li>
-        <li>8" x 3yd</li>
       </ul>
     </div>
 

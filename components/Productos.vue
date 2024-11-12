@@ -56,7 +56,7 @@
 
       <producto-item
         :image="{
-          img: '/Yestel-vendadeyeso-Lape.webp',
+          img: '/Yestel-vendadeyeso-Lape2.webp',
           alt: 'YESTEL – Vendas de Yeso',
         }"
         :title="$t('yestel.title')"
@@ -86,7 +86,7 @@
 
       <producto-item
         :image="{
-          img: '/BeeSure-guantes.webp',
+          img: '/BeeSure-guantes2.webp',
           alt: 'BEESURE – Guantes de Examen',
         }"
         :title="$t('beesure.title')"
@@ -157,25 +157,25 @@
       />
       <!-- @click.native="detail('lape/masctel')" -->
 
-      <producto-item
+      <!---<producto-item
         :image="{ img: '/productos-also/david.webp', alt: 'David' }"
         :title="$t('david.title')"
         link="also/david"
-      />
+      />-->
       <!-- @click.native="detail('lape/masctel')" -->
 
       <producto-item
-        :image="{ img: '/productos-also/venoset.webp', alt: 'Venoset' }"
+        :image="{ img: '/productos-also/venoset2.webp', alt: 'Venoset' }"
         :title="$t('venoset.title')"
         link="also/venoset"
       />
       <!-- @click.native="detail('lape/masctel')" -->
 
-      <producto-item
+      <!--<producto-item
         :image="{ img: '/productos-also/glovex-cpolvo.webp', alt: 'Glovex' }"
         :title="$t('globex_cpolvo.title')"
         link="also/glovex-cpolvo"
-      />
+      />-->
       <!-- @click.native="detail('lape/masctel')" -->
 
       <producto-item
@@ -187,7 +187,7 @@
 
       <producto-item
         :image="{
-          img: '/productos-also/guantex-latex.webp',
+          img: '/productos-also/guantex-latex2.webp',
           alt: 'Guantex Latex',
         }"
         :title="$t('guantex_latex.title')"
@@ -196,7 +196,10 @@
       <!-- @click.native="detail('lape/masctel')" -->
 
       <producto-item
-        :image="{ img: '/productos-also/cover-shoes.webp', alt: 'Cover Shoes' }"
+        :image="{
+          img: '/productos-also/cover-shoes3.webp',
+          alt: 'Cover Shoes',
+        }"
         :title="$t('cover.title')"
         link="also/cover-shoes"
       />

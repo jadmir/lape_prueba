@@ -3,7 +3,7 @@
     <div style="text-align: center;" class="ed-item">
       <img
         class="ProductoDetail--Image"
-        src="/productos-also/guantex-latex.webp"
+        src="/productos-also/guantex-latex2.webp"
         alt="Guantex"
       />
     </div>

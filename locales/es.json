@@ -156,7 +156,7 @@
     "t1": "La faja postoperatorias 3 bandas y abdominales 4 bandas proporcionan un apoyo para todo el cuerpo y la zona intervenida que ayuda a sostener el cuerpo ayudando a sanar los músculos y tejidos durante el periodo de recuperación. Ajuste mediante el sistema “velcro”, diseño anatómico y de alta protección."
   },
   "yestel": {
-    "title": "YESTEL - Vendas de Yeso",
+    "title": "YESTEL -Vendas de Yeso de Paris",
     "t1": "Las vendas de yeso consisten de un tejido de algodón impregnado con sulfato de calcio seco, Inmoviliza la zona lesionada para facilitar la alineación y el proceso de curación del hueso, evitando así que se use o mueva la zona lesionada.",
     "t2": "Fraguado extra rápido.",
     "t3": "Vendaje de acabado liso, sin grumos.",
@@ -180,8 +180,8 @@
     "t1": "Producida con 100% algodón hidrófilo aséptico. Su acondicionado en medidas comerciales se lleva a cabo cumpliendo estrictas normas técnicas de higiene previstas en la certificación de Buenas Prácticas de Manufactura (BPM)."
   },
   "beesure": {
-    "title": "BEESURE - Guantes de Examen",
-    "t1": "Los guantes BeeSure son fabricados por CRANBERRY (M) SDN BHD. Ofrecen una excelente sensación táctil gracias al acabado de su superficie. Ligeramente polveados. Borde de puño reforzado para una fácil colocación."
+    "title": "BEESURE FIT LATEX- Guantes de Látex para Examen",
+    "t1": "Los guantes Beesure Fit látex son fabricados por ECOBEE SDN, BHD. Ofrecen una excelente sensación táctil gracias al acabado de su superficie. Ligeramente polveado y libre de polvo. Borde de puño reforzado para una fácil colocación."
   },
   "transtel": {
     "title": "TRANSTEL - Transfusión de Sangre",
@@ -255,12 +255,12 @@
     "c6": "Rosado"
   },
   "guantex_latex": {
-    "title": "GUANTEX - Guantes de Latex para Examen, Libre de Polvo",
-    "t1": "Fabricado con látex natural, no estéril, biodegradable, hipo alergénico, aséptico, atóxico, ambidextro, puños enrollados, libre de polvo.",
+    "title": "GUANTEX -Guantes de Latex para Examen",
+    "t1": "Fabricado con látex natural, no estéril, biodegradable, hIpoalergénico, aséptico, atóxico, ambidiestro, puños enrollados. Ligeramente polveado y libre de polvo.",
     "t": "Tallas"
   },
   "cover": {
-    "title": "COVER SHOES - Cobertores de Zapatos Descartables",
+    "title": "SHOE COVERS - Cobertores de Zapato Descartable",
     "t1": "Los cobertores de zapatos son fabricados con tela no tejida de polipropileno, anti deslizantes, ambidextros, ajustables con elásticos en ambos lados del pie.",
     "p": "Peso",
     "c": "Colores",

@@ -156,7 +156,7 @@
     "t1": "The 3-band postoperative girdle and 4-band abdominals provide support for the entire body and the intervened area that helps support the body helping to heal the muscles and tissues during the recovery period. Adjustment using the “velcro” system, anatomical design and high protection."
   },
   "yestel": {
-    "title": "YESTEL - Plaster Bandages",
+    "title": "YESTEL – Plaster of Paris Bandages",
     "t1": "Plaster bandages consist of a cotton fabric impregnated with dry calcium sulfate. It immobilizes the injured area to facilitate the alignment and healing process of the bone, thus preventing the injured area from being used or moved.",
     "t2": "Extra fast set.",
     "t3": "Smooth finish bandage, without lumps.",
@@ -180,8 +180,8 @@
     "t1": "Produced with 100% aseptic hydrophilic cotton. Its conditioning in commercial measures is carried out in compliance with strict technical hygiene standards provided for in the certification of Good Manufacturing Practices (GMP)."
   },
   "beesure": {
-    "title": "BEESURE - Exam Gloves",
-    "t1": "BeeSure gloves are manufactured by CRANBERRY (M) SDN BHD. They offer an excellent tactile sensation thanks to the surface finish. Slightly dusted. Reinforced cuff edge for easy placement."
+    "title": "BEESURE FIT LATEX- Latex Examination Gloves",
+    "t1": "Beesure Fit latex gloves are manufactured by ECOBEE SDN, BHD. They offer an excellent tactile sensation thanks to their surface finish. Lightly dusted and dust free. Reinforced cuff edge for easy donning."
   },
   "transtel": {
     "title": "TRANSTEL - Blood Transfusion",
@@ -255,12 +255,12 @@
     "c6": "Pink"
   },
   "guantex_latex": {
-    "title": "GUANTEX - Latex Examination Glove, Powdered Free",
-    "t1": "Manufactured with natural latex, non-sterile, biodegradable, hypoallergenic, aseptic, atoxyc, ambidextrous, beaded cuff, powder free.",
+    "title": "GUANTEX -Latex Gloves for Examination",
+    "t1": "Manufactured with natural latex, non-sterile, biodegradable, hypoallergenic, aseptic, non-toxic, ambidextrous, rolled cuffs. Lightly dusted and dust free.",
     "t": "Sizes"
   },
   "cover": {
-    "title": "COVER SHOES - Disposable Cover Shoes",
+    "title": "SHOE COVERS - Disposible Cover Shoes",
     "t1": "Disposable cover shoes are manufactured with non-woven fabric, polypropylene, non-slip, ambidextrous, fitting with elastics in both sides.",
     "p": "Weight",
     "c": "Colors",

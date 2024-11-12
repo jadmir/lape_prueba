@@ -3,7 +3,7 @@
     <div style="text-align: center;" class="ed-item">
       <img
         class="ProductoDetail--Image"
-        src="/productos-also/venoset.webp"
+        src="/productos-also/venoset2.webp"
         alt="Venoset"
       />
     </div>

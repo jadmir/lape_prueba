@@ -3,7 +3,7 @@
     <div style="text-align: center;" class="ed-item">
       <img
         class="ProductoDetail--Image"
-        src="/productos-also/cover-shoes1.webp"
+        src="/productos-also/cover-shoes3.webp"
         alt="Cover Shoes"
       />
     </div>

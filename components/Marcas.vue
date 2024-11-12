@@ -26,7 +26,7 @@
 
         <marca img="/marcas-lape/optimacast.webp" alt="Optimacast" />
 
-        <marca img="/marcas-lape/beesure.webp" alt="BEESURE" />
+        <marca img="/marcas-lape/beesure2.webp" alt="BEESURE FIT LATEX" />
       </div>
 
       <h1 class="ed-item Title">
@@ -34,14 +34,14 @@
       </h1>
 
       <div class="ed-item ed-container Items">
-        <marca img="/marcas-also/glovex-polvo.webp" alt="Glovex Con Polvo" />
-        <marca img="/marcas-also/cover-shoes.webp" alt="Cover Shoes" />
+        <!--<marca img="/marcas-also/glovex-polvo.webp" alt="Glovex Con Polvo" />-->
+        <marca img="/marcas-also/shoe-covers.webp" alt="Shoe Covers" />
         <marca img="/marcas-also/gastel-plus.webp" alt="Gastel Plus" />
         <marca img="/marcas-also/guantex.webp" alt="Guantex" />
-        <marca img="/marcas-also/david.webp" alt="David" />
+        <!--<marca img="/marcas-also/david.webp" alt="David" />-->
         <marca
-          img="/marcas-also/glovex-sin-polvo.webp"
-          alt="Glovex Sin Polvo"
+          img="/marcas-also/glovex-examen.webp"
+          alt="GUANTEX -GUANTES DE LATEX PARA EXAMEN "
         />
         <marca img="/marcas-also/uritel.webp" alt="Uritel" />
         <marca img="/marcas-also/captel.webp" alt="Captel" />
