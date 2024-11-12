@@ -10,7 +10,7 @@
   },
   "book": {
     "titulo_lape": "Libro de Reclamaciones LAPE S.A.",
-    "titulo_also": "Libro de Reclamaciones ALSO MEDICA S.A.C",
+    "titulo_also": "Libro de Reclamaciones ALSO MEDICA S.A.C.",
     "titulo": "Libro de Reclamaciones",
     "incidente": "Fecha del Incidente",
     "nombre_razon": "Nombre o Razón social",
@@ -147,7 +147,7 @@
     "colores": "Azul, Blanco y verde"
   },
   "alvend": {
-    "title": "ALVEND PLUS- Vendas de Algodón",
+    "title": "ALVEND PLUS - Vendas de Algodón",
     "t1": "Producto para tratamiento traumatológico como vendaje base antes del enyesado.",
     "t2": "Evita exudiaciones típicas en enyesamientos prolongados. De fácil manipulación y adecuada resistencia a la tracción, ambas superficies de la venda permite mejor adherencia entre capa y evita formación de pliegues, adecuada circulación de aire entre el algodón y la piel gracias a su estructura no tejida, evitando escaras u otras heridas, suave y confortable al tacto."
   },
@@ -156,7 +156,7 @@
     "t1": "La faja postoperatorias 3 bandas y abdominales 4 bandas proporcionan un apoyo para todo el cuerpo y la zona intervenida que ayuda a sostener el cuerpo ayudando a sanar los músculos y tejidos durante el periodo de recuperación. Ajuste mediante el sistema “velcro”, diseño anatómico y de alta protección."
   },
   "yestel": {
-    "title": "YESTEL -Vendas de Yeso de Paris",
+    "title": "YESTEL - Vendas de Yeso de Paris",
     "t1": "Las vendas de yeso consisten de un tejido de algodón impregnado con sulfato de calcio seco, Inmoviliza la zona lesionada para facilitar la alineación y el proceso de curación del hueso, evitando así que se use o mueva la zona lesionada.",
     "t2": "Fraguado extra rápido.",
     "t3": "Vendaje de acabado liso, sin grumos.",
@@ -180,7 +180,7 @@
     "t1": "Producida con 100% algodón hidrófilo aséptico. Su acondicionado en medidas comerciales se lleva a cabo cumpliendo estrictas normas técnicas de higiene previstas en la certificación de Buenas Prácticas de Manufactura (BPM)."
   },
   "beesure": {
-    "title": "BEESURE FIT LATEX- Guantes de Látex para Examen",
+    "title": "BEESURE FIT LATEX - Guantes de Látex para Examen",
     "t1": "Los guantes Beesure Fit látex son fabricados por ECOBEE SDN, BHD. Ofrecen una excelente sensación táctil gracias al acabado de su superficie. Ligeramente polveado y libre de polvo. Borde de puño reforzado para una fácil colocación."
   },
   "transtel": {
@@ -255,7 +255,7 @@
     "c6": "Rosado"
   },
   "guantex_latex": {
-    "title": "GUANTEX -Guantes de Látex Para Examen",
+    "title": "GUANTEX - Guantes de Látex Para Examen",
     "t1": "Fabricado con látex natural, no estéril, biodegradable, hIpoalergénico, aséptico, atóxico, ambidiestro, puños enrollados. Ligeramente polveado y libre de polvo.",
     "t": "Tallas"
   },

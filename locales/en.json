@@ -10,7 +10,7 @@
   },
   "book": {
     "titulo_lape": "LAPE S.A. Claims Book",
-    "titulo_also": "ALSO MEDICAL S.A.C Claims Book",
+    "titulo_also": "ALSO MEDICAL S.A.C. Claims Book",
     "titulo": "Complaints Book",
     "incidente": "Date of Incident",
     "nombre_razon": "Name or Company Name",
@@ -180,7 +180,7 @@
     "t1": "Produced with 100% aseptic hydrophilic cotton. Its conditioning in commercial measures is carried out in compliance with strict technical hygiene standards provided for in the certification of Good Manufacturing Practices (GMP)."
   },
   "beesure": {
-    "title": "BEESURE FIT LATEX- Latex Examination Gloves",
+    "title": "BEESURE FIT LATEX - Latex Examination Gloves",
     "t1": "Beesure Fit latex gloves are manufactured by ECOBEE SDN, BHD. They offer an excellent tactile sensation thanks to their surface finish. Lightly dusted and dust free. Reinforced cuff edge for easy donning."
   },
   "transtel": {
@@ -255,7 +255,7 @@
     "c6": "Pink"
   },
   "guantex_latex": {
-    "title": "GUANTEX -Latex Gloves for Examination",
+    "title": "GUANTEX - Latex Gloves for Examination",
     "t1": "Manufactured with natural latex, non-sterile, biodegradable, hypoallergenic, aseptic, non-toxic, ambidextrous, rolled cuffs. Lightly dusted and dust free.",
     "t": "Sizes"
   },
