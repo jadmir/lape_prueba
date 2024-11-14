@@ -31,7 +31,7 @@
         grid="m-30"
       />
 
-      <certificacion-item
+      <!--<certificacion-item
         :image="{ img: '/iso9001-104x105.webp', alt: 'ISO9001' }"
         :width="104"
         :height="105"
@@ -40,9 +40,9 @@
         :alternative-text="$t('certificaciones.iso_3')"
         :third-text="$t('certificaciones.iso_4')"
         grid="m-30"
-      />
+      />-->
 
-      <certificacion-item
+      <!--<certificacion-item
         :image="{ img: '/iso1348-104x104.webp', alt: 'ISO-13485' }"
         :width="104"
         :height="104"
@@ -51,7 +51,7 @@
         :alternative-text="$t('certificaciones.iso_3')"
         :third-text="$t('certificaciones.iso_4')"
         grid="m-30"
-      />
+      />-->
     </div>
 
     <div>
