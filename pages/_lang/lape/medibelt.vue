@@ -3,7 +3,7 @@
     <div style="text-align: center;" class="ed-item">
       <img
         class="ProductoDetail--Image"
-        src="/MediBelt-fajas-Lape.webp"
+        src="/MediBelt-fajas-Lape3.webp"
         alt="Optimacast"
       />
     </div>

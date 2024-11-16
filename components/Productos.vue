@@ -46,7 +46,7 @@
 
       <producto-item
         :image="{
-          img: '/MediBelt-fajas-Lape.webp',
+          img: '/MediBelt-fajas-Lape2.webp',
           alt: 'MEDIBELT – Fajas Post Operatoria y Abdominal',
         }"
         :title="$t('medibelt.title')"
